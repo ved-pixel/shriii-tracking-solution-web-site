@@ -11,10 +11,34 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/github.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/github.min.css"
+/>
+  <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@1.2.0/dist/css/splide.min.css
+    " rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/52ca9e0df4.js" crossorigin="anonymous"></script>
     <title>Document</title>
 
@@ -29,10 +53,17 @@
                 <img src="image.png" alt="Logo">
             </div>
             <ul class="nav-links">
-                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="About us.html">About Us</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="contact page.html">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Services ▼</a>
+                  <ul class="dropdown-content">
+                      <li><a href="Web Design for service.html"><span>Web Design</span></a></li>
+                      <li><a href="graphic desigen foe service.html">Graphic Design</a></li>
+                      <li><a href="Marketing service.html">Digital Marketing</a></li>
+                  </ul>
+              </li>
+                <li><a href="contact page.html"><span>Contect Us</span></a></li>
             </ul>
             <div class="menu-btn" onclick="toggleMenu()">☰</div>
         </nav>
@@ -40,13 +71,7 @@
     </div> 
       </header>
 
-      <section>
-        <div class="container defaultPadding">
-          
-
-        </div>
-      </section>
-
+     
 
       <section class="banner Contact-page">
         
@@ -58,66 +83,119 @@
       </section>
 
 
-      <section>
-        <div class="container defultpadding">
-            <div class="contact-usimage">
-                <img src="contact us image on top.png" alt="">
-            </div>
-            <div class="con-detailes">
-                <div class="text-details">
-                    <h3>Contact Us</h3>
-                    <p>I have world-class, flexible support via live chat, email and hone. I guarantee that you'll be able to have any issue resolved within 24 hours.</p>
-                    <div class="con-card">
-                        <div class="card">
-                            <div class="con-icon">
-                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                            </div>
-
-                            <div class="contactcontact">
-                                <h2 class="fiveE">Location</h2>
-                                <address class="threeE">
-                                    TF-A1-22, Akshar Pavilion Mall, Near Priya Cinema,Vasna Bhyali Main Road, Vadodara,391410 
-                                </address>
-                                </div>
-                                <a target="_blank" class="PosAbsol" href="https://maps.app.goo.gl/EMtQmUV8unVQYXWE8"></a>
-                            </div>
-                            <!-- --on card-Done- -->
 
 
-                            
-                                <div class="card"><con-icon></con-icon>
-                                    <div class="mm jbgbdscv"></div>
-                                </div>
-                            
-
-                           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        </div>                        
+      <section class="getInTouch defaultPadding">
+        <div class="container">
+          <div class="ContactImg">
+            <img src="contact us image on top.png" alt="Illustration">
+          </div>
+    
+            <div class="roowww mt-5  callDetails">
+              <div class="mrIndia" id="getInTouchID"></div>
+                <div class="text-of-contact">
+                    <div class="col-xl-10 col-lg-10 gx-0">
+                        <h3 class="secH-conT styledHeading "> Contact Us</h3>
+                        <p class="FivEe mb-5 paragrey">I have world-class, flexible support via live chat, email and hone. I guarantee that you'll be able to have any issue resolved within 24 hours.</p>
                     </div>
-
+                    <div class="contactCardWrap">
+                       <div class="contactCard">
+                         <div class="contactIcooon">
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                         </div>
+                         <div class="contact-Con">
+                            <h2 class="FivEe">Location</h2>
+                            <address class="FOuRth">
+                              TF-A1-22, Akshar Pavilion Mall, Near Priya Cinema,Vasna <br>Bhyali Main Road, Vadodara,391410
+                            </address>
+                         </div>
+                         <a target="_blank" class="PosAbsol" href="https://maps.app.goo.gl/EMtQmUV8unVQYXWE8"></a>
+                       </div>
+                       <div class="contactCard">
+                        <div class="contactIcooon">
+                            <i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-Con">
+                           <h2 class="FivEe">Email Address</h2>
+                           <p class="FOuRth">contact@shriiitrackingsolutions.com</p>
+                        </div>
+                        <a target="_blank" class="PosAbsol" href="mailto:contact@shriiitrackingsolutions.com"></a>
+                      </div>
+                      <div class="contactCard">
+                        <div class="contactIcooon">
+                            <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-con differentCard">
+                           <h2 class="FivEe"> Make A Call</h2>
+                           <a class="FOuRth" href="tel:+91 6354710794">+91 63547 10794</a>
+                           <p><a class="FOuRth" href="tel:+91 7990909711">+91 79909 09711</a></p>
+                        </div>     
+                      </div>
+                      <div class="contactCard">
+                        <div class="contactIcooon">
+                            <i class="fa-solid fa-business-time" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-con">
+                           <h2 class="FivEe"> Working Hour</h2>
+                           <p class="FOuRth">Monday - Friday, 08am-05pm</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
                 </div>
-
-
-                <div class="form-part">
-
+    
+                <div class="text-of-contact">
+                  <h2 class="secH-conT">Drop Us a Line</h2>
+                  <p class="FivEe pb-2 paragrey">Have a question or need assistance? Fill out the form below, and we'll get back to you as soon as possible.</p>
+                    <form class="roowww g-3 needs-validation ContactForm" novalidate="">
+                        <div class="col-12">
+                          <input type="text" class="form-control" id="validationCustom01" placeholder="Full Name" required="">
+                          <div class="invalid-feedback">
+                            This field is required
+                          </div>
+                        </div>
+                  
+                        <div class="col-12">
+                   
+                          <div class="input-group has-validation">
+                            <input type="email" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required="">
+                            <div class="invalid-feedback">
+                              Please enter a valid email.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <input type="number" class="form-control" placeholder="Phone" id="validationPhone" required="">
+                          <div class="invalid-feedback">
+                            This field is required
+                          </div>
+                      </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Website" id="validationWebsite" required="">
+                            <div class="invalid-feedback">
+                              This field is required
+                            </div>
+                        </div>
+    
+                        <div class="col-12">
+                            <textarea placeholder="Message" cols="30" rows="4"></textarea>
+                        </div>
+                     
+                      
+                        <div class="col-12 mt-0">
+                          <button class="buttonn" type="submit">
+                            <span>Send Message <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></span>
+                        </button>
+                        </div>
+                      </form>
                 </div>
             </div>
+          
         </div>
-      </section>
-
+    </section>
+    
+    
 
 
 
