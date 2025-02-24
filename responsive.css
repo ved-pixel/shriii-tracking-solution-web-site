@@ -1,17 +1,5 @@
 
 
-
-@media (max-width: 768px) {
-
-
-}
-
-
-
-
-
-
-
 @media (min-width: 600px) and (max-width: 1024px) {
     /* Styles for tablets */
     body {
@@ -146,9 +134,8 @@
     }
     
     footer .footer-logo{
-        width: 100%;
-        margin: 0px;
-        padding: 0;
+    width: 100%;
+    align-items: center;
     }
     .footer-info {
         width: 100%;
